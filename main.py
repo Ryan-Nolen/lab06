@@ -20,7 +20,8 @@ def decode():
 	list_pass = []
 	for i in encoded_pass:
 		list_pass.append(int(i))
-	for j in range(len(list_pass[j] - 3
+	for j in range(len(list_pass)):
+		list_pass[j] = list_pass[j] - 3
 	return "".join(str(value) for value in list_pass)
 
 
